@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import ArrObj from "@/components/ArrObj";
 import Blog from "@/components/Blog";
+import CommonHeading from "@/components/CommonHeading";
 import Hero from "@/components/Hero";
 import { HomeIcon } from "@/components/Icons";
 import Object1 from "@/components/Object1";
@@ -38,6 +39,7 @@ export default function Home() {
       <Object1 person={person} />
       <ArrObj abc={abc} />
       <Status status="loading" />
+      <CommonHeading>hello</CommonHeading>
     </>
   );
 }
