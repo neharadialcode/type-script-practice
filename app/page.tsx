@@ -5,6 +5,7 @@ import CommonHeading from "@/components/CommonHeading";
 import Hero from "@/components/Hero";
 import { HomeIcon } from "@/components/Icons";
 import Object1 from "@/components/Object1";
+import OptionalPro from "@/components/OptionalPro";
 import Status from "@/components/Status";
 
 export default function Home() {
@@ -40,6 +41,7 @@ export default function Home() {
       <ArrObj abc={abc} />
       <Status status="loading" />
       <CommonHeading>hello</CommonHeading>
+      <OptionalPro name="name" id={1} />
     </>
   );
 }
