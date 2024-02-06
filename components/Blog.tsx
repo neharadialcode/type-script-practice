@@ -4,7 +4,7 @@ type value = {
   icon: any;
   text: string;
 };
-const Blog = (value: any) => {
+const Blog = (value: value) => {
   return (
     <div>
       {value.icon} <p>{value.text}</p>
